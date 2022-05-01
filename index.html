@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Việt Nam</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    
+    <!-- header -->
+    
+    <header>
+    
+        <div id="menu-bar" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"><span>A</span>mazing Việt Nam</a>
+    
+        <nav class="navbar">
+            <a href="#trangchu">Trang Chủ</a>
+            <a href="#chuyendi">Chuyến Đi</a>
+            <a href="#vechungtoi">Về Chúng Tôi</a>
+            <a href="#baiviet">Bài Viết</a>
+            <a href="#lienhe">Liên Hệ</a>
+    
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+    
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    
+    </header>
+    
+    <!-- header section ends -->
+    
+    <!-- login form container  -->
+    
+    <div class="login-form-container">
+    
+        <i class="fas fa-times" id="form-close"></i>
+    
+        <form action="">
+            <h3>Login</h3>
+            <input type="account" class="box" placeholder="Nhập email của bạn">
+            <input type="password" class="box" placeholder="Nhập mật khẩu">
+            <input type="submit" value="Đăng Nhập" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Nhớ tài khoản</label>
+            <p>Quên mật khẩu ? <a href="#">Click vào đây</a></p>
+            <p>Đăng ký tài khoản ? <a href="#">Đăng ký ngay</a></p>
+        </form>
+    
+    </div>
+
+    <!--home  section-->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Amazing Việt Nam</h3>
+            <p>Cũng Khám Phá Đất Nước Việt Nam Xinh Đẹp</p>
+            <a href="#" class="btn">Đi Thôi Amazing Việt Nam</a>
+        </div>
+    
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="video/Hoi An.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
